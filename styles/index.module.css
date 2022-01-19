@@ -1,0 +1,217 @@
+/* 사용안함 */
+@import "/styles/bootstrap-custom.scss";
+
+/* Main Page */
+.banner {
+  width: 100%;
+  height: 647px;
+  /* background-color: #e7e2c1; */
+  background: url("https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_NewYear_main_bg.png");
+}
+
+.card_banner {
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  /* margin-top: 55px; */
+}
+
+.slogan {
+  margin-left: 240px;
+  margin-top: 60px;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.slogan_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan_btn {
+  width: 130px;
+  height: 38px;
+  margin-top: 42px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  border: solid #00704a 2px;
+  font-size: 14px;
+}
+.slogan_btn:hover {
+  background-color: #4f7161;
+  border: solid #4f7161 2px;
+  text-decoration: underline;
+  color: white;
+  -webkit-transition: background-color 0.5s;
+}
+.slogan_btn_content {
+  text-decoration: none;
+  color: #00704a;
+}
+
+.slogan_btn_content:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.recommend_01 {
+  position: relative;
+  margin-left: -230px;
+  margin-top: 270px;
+}
+
+.recommend_02 {
+  position: relative;
+  margin-left: 120px;
+  margin-top: -440px;
+}
+
+.recommend_03 {
+  position: relative;
+  margin-left: 555px;
+  margin-top: -260px;
+}
+
+/* notice */
+.notice {
+  display: flex;
+  height: 60px;
+}
+
+.notice_left {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
+  width: 56%;
+  background-color: black;
+  color: white;
+}
+
+.notice_left_text {
+  margin-top: 15px;
+  margin-left: 210px;
+  /* text-shadow: /white 1px 1px; */
+  font-weight: 600;
+  color: lightgrey;
+}
+
+.div_icon_plus {
+  margin-right: 20px;
+  /* display: flex; */
+}
+
+.icon_plus {
+  width: 33px;
+  height: 33px;
+  /* margin-top: -30px; */
+}
+
+.notice_right {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.notice_right_text {
+  margin-top: 15px;
+  padding-left: 210px;
+  /* text-shadow: black 1px 1px; */
+  font-weight: 600;
+}
+
+.div_icon_check {
+  margin-left: 50px;
+  /* display: flex; */
+}
+
+.icon_check {
+  width: 33px;
+  height: 33px;
+  /* margin-top: -30px; */
+}
+
+/* reward */
+.reward {
+  height: 240px;
+  background-color: #1e3932;
+  color: white;
+}
+
+.reward_div {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.reward_logo_div {
+  margin-top: 30px;
+  margin-left: 260px;
+}
+
+.reward_logo {
+  width: 70%;
+}
+
+.reward_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+}
+
+.reward_top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  border-bottom: solid rgb(123, 143, 129) 1px;
+}
+
+.reward_top_btn_div {
+  margin-top: 50px;
+}
+
+.reward_top_btn_1 {
+  margin-left: 67px;
+  width: 94px;
+  height: 37px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00704a;
+  color: white;
+  font-size: 13.5px;
+}
+.reward_top_btn_2 {
+  margin-left: 10px;
+  width: 80px;
+  height: 37px;
+  border: solid white 2px;
+  border-radius: 5px;
+  background-color: #1e3932;
+  color: white;
+  font-size: 13.5px;
+}
+
+.reward_bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  font-size: small;
+  /* font-weight: bold; */
+}
+
+.reward_bottom_btn {
+  margin-left: 65px;
+  width: 180px;
+  height: 40px;
+  border: solid white 2px;
+  border-radius: 5px;
+  background-color: #1e3932;
+  color: white;
+  font-size: 14px;
+}
